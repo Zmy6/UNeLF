@@ -40,12 +40,11 @@ During our UNeLF implementation, we referenced several open sourced NeRF impleme
 
 ## Citation
 ```
-@ARTICLE{zhao2025unelf,
+@article{zhao2025unelf,
+  title={UNeLF: Unconstrained Neural Light Field for Self-Supervised Angular Super-Resolution}, 
   author={Zhao, Mingyuan and Sheng, Hao and Chen, Rongshan and Cong, Ruixuan and Cui, Zhenglong and Yang, Da},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-  title={UNeLF: Unconstrained Neural Light Field for Self-Supervised Angular Super-Resolution}, 
   year={2025},
-  pages={1-1},
-  doi={10.1109/TCSVT.2025.3548705}}5.
+  doi={10.1109/TCSVT.2025.3548705}}.
 ```
 
