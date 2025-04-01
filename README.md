@@ -11,7 +11,7 @@ We provide a environment.yml file to set up a conda environment:
 conda env create -f environment.yml
 ```
 
-### Data
+### Datasets
 HCInew:
 ```
 https://lightfield-analysis.uni-konstanz.de/
@@ -34,16 +34,18 @@ python tasks/UNeLF.py --base_dir=data/HCInew --scene_name=xxx --gpu_id 0
 python tasks/testY.py
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 During our UNeLF implementation, we referenced several open sourced NeRF implementations, and we thank their contributions. Specifically, we referenced functions from nerf and nerfmm, and borrowed/modified code from them.
 
 ## Citation
 ```
-M. Zhao, H. Sheng, R. Chen, R. Cong, Z. Cui and D. Yang, "UNeLF: Unconstrained Neural Light Field for Self-Supervised Angular Super-Resolution," in IEEE Transactions on Circuits and Systems for Video Technology, doi: 10.1109/TCSVT.2025.3548705.
+@ARTICLE{zhao2025unelf,
+  author={Zhao, Mingyuan and Sheng, Hao and Chen, Rongshan and Cong, Ruixuan and Cui, Zhenglong and Yang, Da},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={UNeLF: Unconstrained Neural Light Field for Self-Supervised Angular Super-Resolution}, 
+  year={2025},
+  pages={1-1},
+  doi={10.1109/TCSVT.2025.3548705}}5.
 ```
 
