@@ -12,8 +12,14 @@ conda env create -f environment.yml
 ```
 
 ### Data
-HCInew: https://lightfield-analysis.uni-konstanz.de/
-Stanrford: http://lightfield.stanford.edu/lfs.html
+HCInew:
+```
+https://lightfield-analysis.uni-konstanz.de/
+```
+Stanrford: 
+```
+http://lightfield.stanford.edu/lfs.html
+```
 Please refer to nerfmm for data format
 
 ### Training and Evaluation
@@ -25,23 +31,7 @@ python tasks/UNeLF.py --base_dir=data/HCInew --scene_name=xxx --gpu_id 0
 ## Testing
 
 ```
-python tasks/UNeLF.py --base_dir=data/HCInew --scene_name=xxx --gpu_id 0
-```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
 python tasks/testY.py
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
 ```
 
 ## License
