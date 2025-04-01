@@ -14,7 +14,7 @@ def resize_imgs(imgs, new_h, new_w):
 
 def load_split(scene_dir, img_dir, data_type, num_img_to_load, skip, load_img):
     # load pre-splitted train/val ids
-    img_ids = np.loadtxt(os.path.join(scene_dir, data_type + '_ids.txt'), dtype=np.int32, ndmin=1)
+    img_ids = np.loadtxt(os.path.join('data/', data_type + '_ids.txt'), dtype=np.int32, ndmin=1)
     if num_img_to_load == -1:
         img_ids = img_ids[::skip]
         print('Loading all available {0:6d} images'.format(len(img_ids)))
