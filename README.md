@@ -7,9 +7,9 @@ We provide a environment.yml file to set up a conda environment:
 
 ### Environment
 
-/```
+```
 conda env create -f environment.yml
-/```
+```
 
 ### Data
 HCInew: https://lightfield-analysis.uni-konstanz.de/
@@ -18,31 +18,31 @@ Please refer to nerfmm for data format
 
 ### Training and Evaluation
 
-/```
+```
 python tasks/UNeLF.py --base_dir=data/HCInew --scene_name=xxx --gpu_id 0
-/```
+```
 
 ## Testing
 
-/```
+```
 python tasks/UNeLF.py --base_dir=data/HCInew --scene_name=xxx --gpu_id 0
-/```
+```
 
 ### Break down into end to end tests
 
 Explain what these tests test and why
 
-/```
+```
 python tasks/testY.py
-/```
+```
 
 ### And coding style tests
 
 Explain what these tests test and why
 
-/```
+```
 Give an example
-/```
+```
 
 ## License
 
@@ -53,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 During our UNeLF implementation, we referenced several open sourced NeRF implementations, and we thank their contributions. Specifically, we referenced functions from nerf and nerfmm, and borrowed/modified code from them.
 
 ## Citation
-/```
+```
 M. Zhao, H. Sheng, R. Chen, R. Cong, Z. Cui and D. Yang, "UNeLF: Unconstrained Neural Light Field for Self-Supervised Angular Super-Resolution," in IEEE Transactions on Circuits and Systems for Video Technology, doi: 10.1109/TCSVT.2025.3548705.
-/```
+```
 
