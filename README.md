@@ -1,6 +1,6 @@
 # UNeLF: Unconstrained Neural Light Field for Self-Supervised Angular Super-Resolution
 An official code implementation of "UNeLF: Unconstrained Neural Light Field for Self-Supervised Angular Super-Resolution" from Mingyuan Zhao and Hao Sheng and Rongshan Chen and Ruixuan Cong and Zhenglong Cui and Da
-Yang 
+Yang.
 
 ## Getting Started
 
