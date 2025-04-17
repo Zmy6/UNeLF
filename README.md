@@ -17,7 +17,7 @@ HCInew:
 ```
 https://lightfield-analysis.uni-konstanz.de/
 ```
-Stanrford: 
+Stanford: 
 ```
 http://lightfield.stanford.edu/lfs.html
 ```
